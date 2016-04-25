@@ -21,7 +21,7 @@ import (
 	"github.com/influxdb/telegraf/plugins/parsers"
 	"github.com/influxdb/telegraf/plugins/serializers"
 
-	"github.com/influxdb/config"
+	"github.com/influxdata/config"
 	"github.com/influxdb/toml"
 	"github.com/influxdb/toml/ast"
 )
