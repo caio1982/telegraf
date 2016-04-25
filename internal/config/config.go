@@ -13,17 +13,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/models"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/influxdb/telegraf"
+	"github.com/influxdb/telegraf/internal"
+	"github.com/influxdb/telegraf/internal/models"
+	"github.com/influxdb/telegraf/plugins/inputs"
+	"github.com/influxdb/telegraf/plugins/outputs"
+	"github.com/influxdb/telegraf/plugins/parsers"
+	"github.com/influxdb/telegraf/plugins/serializers"
 
-	"github.com/influxdata/config"
-	"github.com/influxdata/toml"
-	"github.com/influxdata/toml/ast"
+	"github.com/influxdb/config"
+	"github.com/influxdb/toml"
+	"github.com/influxdb/toml/ast"
 )
 
 var (
